@@ -42,7 +42,7 @@ This project follows a clean **Java MVC architecture** and separates concerns ac
 📦 src 
 └── 📁 main 
   └── 📁 java 
-    └── 📁 com.example.chatapp 
+    └── 📁 com.app 
     ├── 📁 config # All configuration classes (@Configuration) 
     ├── 📁 controller # REST Controllers (@RestController) 
     ├── 📁 dto # Data Transfer Objects (DTOs) 
