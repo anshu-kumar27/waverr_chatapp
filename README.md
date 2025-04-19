@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="https://i.gifer.com/ZZ5H.gif" width="100" alt="loading" />
-</p>
+<h1 align="center">Chat Application (Learning project)</h1>
 
-<h1 align="center">🚧 Chat Application (Under Development) 🚧</h1>
-
-A real-time full-stack chat application built with **Spring Boot**, **WebSockets**, **React**, and **PostgreSQL** — featuring JWT authentication, Redux state management, and modular Java MVC architecture.
+A real-time full-stack chat application built with **Spring Boot**, **WebSockets**, **React**, and **Mongodb** — featuring JWT authentication, Redux state management, and modular Java MVC architecture.
 
 ---
 
@@ -35,46 +31,18 @@ A real-time full-stack chat application built with **Spring Boot**, **WebSockets
 
 ---
 
-## 📁 Project Structure
+## 🚀 Features
 
-This project follows a clean **Java MVC architecture** and separates concerns across layers:
-```
-📦 src 
-└── 📁 main 
-  └── 📁 java 
-    └── 📁 com.app 
-    ├── 📁 config # All configuration classes (@Configuration) 
-    ├── 📁 controller # REST Controllers (@RestController) 
-    ├── 📁 dto # Data Transfer Objects (DTOs) 
-    ├── 📁 mapper # DTO ↔ Model mapping logic 
-    ├── 📁 model │ ├── 📄 [Entities] # Database schema classes (@Entity) 
-    │ └── 📁 enums # Enum definitions (e.g., Role, Status) 
-    ├── 📁 repository # JPA repositories (interfaces) 
-    ├── 📁 service │ ├── 📄 [Interfaces] # Service layer contracts 
-    │ └── 📁 implementation # Concrete service implementations 
-    ├── 📁 exception # Global error handling (@ControllerAdvice) 
-    └── 📁 util # Utility/helper classes
-```
+- 🧠 **Create custom chat groups**
+- 🧑‍🤝‍🧑 **Join existing communities**
+- 💬 **Real-time messaging** powered by WebSockets
+- 🔐 **Secure login** with JWT tokens
+- 🌐 **Built using Java MVC + React + MongoDB**
+- ⚛️ **Frontend state management with Redux**
+- 🎨 **Styled with TailwindCSS for modern UI**
 
 ---
 
-## 🚀 Features in Progress
+## 🖼️ Screenshots
 
-- [x] JWT-based login/authentication system
-- [x] Real-time communication with WebSocket  
-- [x] Modular backend with layered architecture  
-- [x] Redux-powered frontend state  
-- [ ] One-on-one and group chat support  
-- [ ] Typing indicators, online presence  
-- [ ] Media sharing (images, files)  
-- [ ] Notification sounds  
-- [ ] Responsive mobile design
-
-
----
-
-<p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWEycmVyZzczN3BtaWl4ZHlqb2s5d2RqeXQ5ZWNvejRoeWVyYnd5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cvyz3Hw4d7EIw/giphy.gif" width="300" alt="anime-coding-gif"/>
-</p>
-
-<h3 align="center">✨ In progress... On my wayyyy.... ✨</h3>
+![](assets/java.png)
